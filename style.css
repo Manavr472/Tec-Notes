@@ -1,0 +1,208 @@
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+header{
+	background-color:blueviolet;
+	height: 50px;
+	font-family: Cambria;
+}
+
+ul{
+	float: right;
+	list-style-type: auto;
+	margin-top: 20px
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+	border: 2px solid transparent;
+	transition: 0.5s ease;
+}
+
+ul li a:hover{
+	background-color: skyblue;
+	color: #fff;
+}
+
+u{
+	float: left;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+u li{
+	display: inline-block;
+}
+
+u li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 30px;
+	border: 2px solid transparent;
+}
+.home{
+	background-image: linear-gradient(rgba(72, 72, 72, 0.3),rgba(72, 72, 72, 0.3)), url("download.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 80% ;
+	
+	
+}
+.title{
+	margin-top: 15%;
+	margin-left: 35%;
+
+}
+.title h1{
+	color: #fff;
+	font-size : 80px;
+	font-style: bold;
+	font-family: roboto;
+}
+
+
+.moto{
+	margin-left: 28%;
+}
+.moto h3{
+	color: rgb(255, 255, 255);
+	font-size: 30px;
+	font-style: bold;
+	padding: 10px 20px;
+	border: 2px solid transparent;
+}
+
+.buttons{
+	text-align: center;
+	float: center;
+	border: 20px solid rgb(0,0,0,0);
+}
+
+.btn{
+	border: 2px solid white ;
+	background: rgb(222, 79, 238) ;
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	cursor: pointer;
+	margin: 10px;
+	list-style-type: auto;
+}
+.FE,.COMPS{
+	color: rgb(255, 255, 255);
+	padding: 5px 30px;
+	margin-top: 230px;
+	border-radius: 8px;
+}
+.FE:hover,.COMPS:hover{
+	background-color: white;
+	color: rgb(222, 79, 238);
+	border: 2px solid;
+	transition: 1000ms;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.GEmain{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Generalegineering.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 80%;
+}	
+
+.generalengg{
+	margin-top: 15%;
+	margin-left: 25%;
+	color: #fff;
+	font-size: 30px;
+	font-family: sans-serif;
+	font-style: bold;
+}
+
+.sem1,.sem2{
+	color: rgb(255, 255, 255);
+	padding: 5px 50px;
+	list-style-type: auto;
+	margin-top: 250px;
+	text-align: center;
+	border-radius: 8px;
+}
+.sem1:hover,.sem2:hover{
+	background-color: white;
+	color: rgb(222, 79, 238);
+	border: 2px solid;
+	transition: 1000ms;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.CSmain{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.pagehead{
+	margin-top: 10%;
+	margin-left: 2%;
+	font-size: 30px;
+}
+
+.subhead{
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 50px;
+	margin-top: 50px;
+} 
+
+.em1,.ep1,.ec1,.mech,.bee{
+	background-color:rgb(222, 79, 238) ;
+	padding: 5px 50px;
+	list-style-type: auto;
+	margin-top: 100px;
+	text-align: center;
+	border-radius: 8px;
+}
+.em1:hover,.ep1:hover,.ec1:hover,.mech:hover,.bee:hover{
+	background-color: #fff;
+	color: rgb(222, 79, 238);
+	border: 2px solid;
+	transition: 1000ms;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.collapsible {
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: center;
+	font-style: bold;
+	outline: none;
+	font-size: 25px;
+  }
+  
+  .active, .collapsible:hover {
+	background-color: rgba(108, 150, 232, 0.649);
+  }
+  
+  .collapsible:after {
+	content: '\002B';
+	color: white;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+  }
+  
+  .active:after {
+	content: "\2212";
+  }
+  
+  .content {
+	padding: 0 18px;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+	background-color: #f1f1f1;
+  }
